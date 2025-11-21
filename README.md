@@ -18,25 +18,21 @@ This project aims to identify the key drivers of employee attrition and provide 
 
 ## 📊 **Dashboard Overview**
 
-> *(Upload your Power BI screenshots here)*
-
 ### Attrition Summary Dashboard
 
-```
-![Attrition Summary](images/attrition_summary.png)
-```
+<img width="2000" height="1156" alt="image" src="https://github.com/user-attachments/assets/4551fa87-5d3e-4443-a9f8-8892571b7f86" />
 
 ### Job Role & Department Insights
 
-```
-![Job Role](images/job_role_analysis.png)
-```
+<img width="2000" height="1156" alt="image" src="https://github.com/user-attachments/assets/e8898a60-4d29-498f-9e4f-8377786fa2be" />
 
 ### Income, Tenure & Experience
 
-```
-![Income Trends](images/income_analysis.png)
-```
+<img width="2000" height="1156" alt="image" src="https://github.com/user-attachments/assets/57df091c-e646-4cf2-a551-9482b2d91198" />
+
+### Income, Tenure & Experience
+
+<img width="2000" height="1156" alt="image" src="https://github.com/user-attachments/assets/cd8d8219-cf3d-4e63-94af-d131c2b44c99" />
 
 ---
 
