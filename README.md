@@ -1,67 +1,90 @@
-# IBM-Employee-Attrition-Workforce-Analytics
+# 👥 **IBM Employee Attrition & Workforce Analytics**
 
-In this project, I have explored and analyzed Employee Attrition & Performance using IBM HR Analytics dataset. The goal is to uncover patterns, identify key factors contributing to attrition, and insights related to employee turnover through visualization and statistical techniques using Python (for Data Exploration, Preprocessing, and Analyzing) and Power BI (for Interactive Report and Visual Storytelling).
+Employee attrition affects team stability, productivity, morale, and long-term business performance.
+This project analyzes the IBM HR Employee Attrition dataset to uncover patterns behind employee turnover using Python and Power BI.
 
-## Overview
-Employee attrition is a critical concern for organizations, impacting productivity and morale. By analyzing historical HR data, we aim to identify key factors contributing to employee departures, enabling proactive retention strategies.
+---
 
-## Dataset
-- Source: [IBM HR Employee Attrition Data](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/IBM%20HR%20Employee%20Attrition%20Data.csv)
-- Records: 1,470
-- Features: 35 (including both numerical and categorical variables)
+## ❗ **Problem Statement**
 
-## Tools & Libraries Used
-- Python (Jupyter Notebook)
-    - Pandas
-    - Matplotlib
-    - Seaborn
-- Power BI (power BI Desktop)
-    - Power Query Editor x DAX
+Organizations often struggle to understand *why employees leave.*
+Factors such as salary, job role, satisfaction level, working conditions, and career progression are not always clear without data-driven investigation.
 
-## Project Objectives
-- Understand the key drivers of employee attrition.
-- Identify roles, departments, and demographics more prone to attrition.
-- Create an interactive and insightful dashboard for business stakeholders.
-- Support data-driven decision-making to reduce employee turnover.
+This project aims to identify the key drivers of employee attrition and provide insights for proactive workforce planning and retention strategies.
 
-## Project Structure
-- [IBM HR Employee Attrition Data.csv (Raw Data)](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/IBM%20HR%20Employee%20Attrition%20Data.csv)
-- [IBM HR Employee Attrition Data.ipynb (Jupyter Notebook)](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/Dataset%203%20-%20IBM%20HR%20Employee%20Attrition%20Data.ipynb)
-- [IBM HR Employee Attrition Analysis.pbix (Power BI Report)](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/IBM%20HR%20Employee%20Attrition%20Analysis.pbix)
-- [IBM HR Employee Attrition Report.pdf (Power BI Report - PDF)](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/IBM%20HR%20Employee%20Attrition%20Report.pdf)
-- [IBM_HR_EDA_Report.html (EDA Report)](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/IBM_HR_EDA_Report.html)
-- [README.md](https://github.com/nibeditans/Employee-Attrition-Analysis-On-IBM-HR-Data/blob/main/README.md)
+---
 
+## 📊 **Dashboard Overview**
 
-## Key Analysis Steps
-1. **Data Inspection:**
-    - Checked dataset shape, data types, missing values, and duplicates.
-    - Categorized columns into numerical and categorical features.
-2. **Univariate Analysis:**
-    - Visualized distributions of key numerical features like Age, Monthly Income, and Total Working Years.
-    - Analyzed categorical features such as Job Role, Department, and Education Field.
-3. **Bivariate Analysis:**
-    - Explored relationships between features and the target variable (Attrition).
-    - Created violin plots and histograms to compare distributions between employees who left and those who stayed.
-4. **Correlation Analysis:**
-    - Generated a heatmap to identify strong correlations between numerical features.
-    - Noted significant correlations, such as between Job Level and Monthly Income.
+> *(Upload your Power BI screenshots here)*
 
-## Insights
-- **Job Level & Monthly Income:** Strong positive correlation indicates higher job levels are associated with increased income.
-- **Total Working Years & Monthly Income:** Longer tenure correlates with higher income, suggesting experience impacts compensation.
-- **Attrition Trends:**
-      - Higher attrition observed in roles like Sales Executive and Research Scientist.
-      - Departments such as Sales and R&D show increased turnover rates.
-      - Educational backgrounds in Life Sciences and Medical fields have higher attrition.
-  
-These insights can guide HR departments in tailoring retention strategies for specific roles, departments, and educational backgrounds.
+### Attrition Summary Dashboard
 
-Wanna explore more Projects and Fun Programs? Check out the [Data Analytics Projects Collection](https://github.com/nibeditans/A-Few-Data-Analytics-Projects) Page.😄
+```
+![Attrition Summary](images/attrition_summary.png)
+```
 
-That's it! I've already added clear explanations inside the notebook itself, there shouldn't be any issues on understing the concepts. 
+### Job Role & Department Insights
 
-## 📬 Contact
-Feel free to connect if you'd like to discuss this project or have any feedback!
-- GitHub: [@nibeditans](https://github.com/nibeditans)
-- LinkedIn: [Nibedita Sahu](https://in.linkedin.com/in/ns-nibedita-sahu)
+```
+![Job Role](images/job_role_analysis.png)
+```
+
+### Income, Tenure & Experience
+
+```
+![Income Trends](images/income_analysis.png)
+```
+
+---
+
+## 🧩 **Project Workflow**
+
+| Step                         | Task                      | Key Activities                                  |
+| ---------------------------- | ------------------------- | ----------------------------------------------- |
+| **1️⃣ Data Inspection**      | Explore structure         | Checked data types, duplicates, distributions   |
+| **2️⃣ Data Cleaning**        | Remove unnecessary fields | Dropped constant columns & ensured consistency  |
+| **3️⃣ Univariate Analysis**  | Individual feature study  | Age, income, working years, satisfaction        |
+| **4️⃣ Bivariate Analysis**   | Attrition relationships   | Age vs attrition, salary vs attrition, job role |
+| **5️⃣ Correlation Analysis** | Pattern identification    | Heatmap on job level, tenure, experience        |
+| **6️⃣ Dashboard Creation**   | BI visualization          | Role insights, attrition patterns, KPIs         |
+
+---
+
+## 📈 **Key Insights**
+
+| Insight                                                       | Explanation                                                  |
+| ------------------------------------------------------------- | ------------------------------------------------------------ |
+| **💼 Higher Job Level → Higher Salary → Lower Attrition**     | Senior employees show high stability and lower turnover.     |
+| **📅 Short Tenure Leads to Higher Attrition**                 | Employees with fewer working years are more likely to leave. |
+| **📉 Sales Executives & Lab Technicians Have High Attrition** | These roles experience workload and low satisfaction.        |
+| **🎓 Life Sciences & Medical Fields Show More Attrition**     | Employees from these backgrounds tend to switch roles more.  |
+| **👶 Younger Employees Leave More Often**                     | Early-career workers frequently seek new opportunities.      |
+
+---
+
+## 🛠️ **Tools & Technologies Used**
+
+| Tool                       | Purpose                           |
+| -------------------------- | --------------------------------- |
+| **Python (Pandas, NumPy)** | Exploring and analyzing HR data   |
+| **Matplotlib & Seaborn**   | Visual EDA & statistical insights |
+| **Power BI Desktop**       | Creating interactive dashboards   |
+| **DAX + Power Query**      | KPI calculations and modeling     |
+| **Jupyter Notebook**       | Code execution and documentation  |
+
+---
+
+## 🧠 **Conclusion**
+
+By analyzing employee demographics, salary patterns, job roles, satisfaction levels, and tenure, this project clearly identifies the major factors driving attrition.
+
+The results help solve the original problem statement by enabling organizations to:
+
+* Pinpoint high-risk job roles and departments
+* Adjust compensation strategies using salary–tenure patterns
+* Improve retention among young and early-career employees
+* Address factors like workload and role dissatisfaction
+* Build targeted HR strategies for high-attrition groups
+
+Just say **“resume points”** or **“description”**!
