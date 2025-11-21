@@ -1,7 +1,8 @@
 # 👥 **IBM Employee Attrition & Workforce Analytics**
 
-Employee attrition affects team stability, productivity, morale, and long-term business performance.
-This project analyzes the IBM HR Employee Attrition dataset to uncover patterns behind employee turnover using Python and Power BI.
+This project analyzes employee attrition to identify why people leave and which factors drive turnover. 
+It highlights patterns across job roles, salary, tenure, age, and satisfaction to reveal high-risk 
+groups and support stronger retention strategies.
 
 ---
 
