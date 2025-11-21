@@ -1,7 +1,9 @@
 # 👥 **IBM Employee Attrition & Workforce Analytics**
 
 This project analyzes employee attrition to identify why people leave and which factors drive turnover. 
+
 It highlights patterns across job roles, salary, tenure, age, and satisfaction to reveal high-risk 
+
 groups and support stronger retention strategies.
 
 ---
