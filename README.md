@@ -1,4 +1,4 @@
-# 👥 **IBM Employee Attrition & Workforce Analytics**
+# 👥 **IBM HR Analytics – Employee Attrition Analysis**
 
 mployee attrition impacts productivity, morale, and organizational cost.
 This project analyzes the IBM HR Employee Attrition dataset to uncover patterns behind employee turnover and help HR teams make data-driven retention decisions.
